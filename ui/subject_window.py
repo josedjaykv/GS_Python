@@ -1,0 +1,1 @@
+# Ventana de una materia donde ya se ven cada una de las notas de esa materia

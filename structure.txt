@@ -1,0 +1,25 @@
+mi_app_promedios/
+│
+├── main.py                # Punto de entrada para iniciar la app
+├── requirements.txt       # Dependencias (si decides incluir más librerías)
+│
+├── database/
+│   ├── db_manager.py      # Gestión de base de datos SQLite
+│   └── promedios.db       # Archivo de la base de datos
+│
+├── ui/
+│   ├── login_window.py    # Ventana de inicio de sesión
+│   ├── register_window.py # Ventana de registro
+│   ├── semesters_window.py# Ventana principal con los semestres
+│   ├── semester_window.py # Ventana de un semestre
+│   ├── subject_window.py  # Ventana de una materia
+│   └── widgets.py         # Clases/funciones reutilizables para widgets
+│
+├── logic/
+│   ├── promedio_calculator.py  # Lógica para cálculos de promedios
+│   ├── user_manager.py    # Lógica de autenticación y gestión de usuarios
+│   └── utils.py           # Funciones generales (validaciones, etc.)
+│
+└── assets/
+    ├── images/            # Imágenes (si usas íconos o un logo)
+    └── styles.css         # Opcional: estilos para ttk
