@@ -39,7 +39,7 @@ def initialize_database():
         id INTEGER PRIMARY KEY AUTOINCREMENT,
         semestre_id INTEGER NOT NULL,
         nombre TEXT NOT NULL,
-        creditos INTEGER,
+        creditos INTEGER NOT NULL,
         promedio REAL,
         FOREIGN KEY (semestre_id) REFERENCES semestres (id)
     )
